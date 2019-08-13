@@ -1,8 +1,8 @@
 #!/bin/bash
-if [$#==1];
+if [ $# -eq 1 ];
 then
 git add $1
-git commit -m
+git commit $1
 else
 git add $1
 git commit -m $2
