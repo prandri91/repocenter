@@ -7,4 +7,4 @@ else
 git add $1
 git commit -m $2
 fi
-echo "Commit file $1 berhasil, bro!!"
+echo "Commit file $1 berhasil, dude!!"
